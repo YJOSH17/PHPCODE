@@ -39,16 +39,28 @@ ob_start();
             color: #000;
         }
         .logo {
-            width: 100px;
+            width: 200px;
             height: 100px;
+        }
+      
+        #tabla{
+            border: 2px solid deepskyblue;
+        }
+        td{
+            border: 2px solid deepskyblue;
+        }
+        tr{
+            border: 2px solid deepskyblue;
         }
     </style>
 </head>
 <body class="text-center">
     <div class="page-number"></div>
-    <img src="http://P6ProductoPDF/assets/img/jsL.png" alt="Logo" class="logo">    <h1>REPORTE DE PRODUCTOS</h1>
+    <!-- Ruta completa a la imagen pública de Spiderman -->
+    <img src="https://i.pinimg.com/736x/4b/9b/4a/4b9b4ae44da084048429ef33f3506c1c.jpg" alt="Logo" class="logo" >
+    <h1>REPORTE DE PRODUCTOS</h1>
 
-    <table class="table w-75 m-auto mt-4 table-striped-columns table-dark table-bordered border-primary text-center">
+    <table class="table w-75 m-auto mt-4 table-striped-columns table-dark table-bordered border-primary text-center" id="tabla">
         <tr>
             <td>ID</td>
             <td>NOMBRE PRODUCTO</td>
